@@ -43,7 +43,6 @@ class Board {
 
   findList(listId) {
     return this.lists.find(function(list) {
-      console.log(typeof(list.id));
       if (listId == list.id) {
         return list;
       }
